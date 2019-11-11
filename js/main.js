@@ -126,13 +126,23 @@ $(function () {
   });
 
   var doctorInfoSertifaicateList = new Swiper('.doctor-info__sertifaicate-list', {
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 20,
-    breakpoints: {
-      600: {
-        slidesPerView: 'auto',
-      }
-    }
+    // breakpoints: {
+    //   600: {
+    //     slidesPerView: 'auto',
+    //   }
+    // }
+  });
+
+  var sertifaicatesList = new Swiper('.sertifaicates__list', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    // breakpoints: {
+    //   600: {
+    //     slidesPerView: 'auto',
+    //   }
+    // }
   });
 
 
@@ -215,7 +225,7 @@ $(function () {
   });
 
   $("#rateYo").rateYo({
-    rating: 5,
+    rating: 0,
     fullStar: true,
     spacing: "10px",
     onSet: function (rating, rateYoInstance) {

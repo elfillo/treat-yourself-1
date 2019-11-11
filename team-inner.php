@@ -66,9 +66,9 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                             </p>
                         </div>
                         <h2 class="doctor-info__education-name doctor-info__education-name_sertificate">
-                            Сертификаты
+                            Сертификаты 
                         </h2>
-                        <ul class="swiper-container doctor-info__sertifaicate-list">
+                        <div class="swiper-container doctor-info__sertifaicate-list">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <a href="img/admin/sertificate.png" class="doctor-info__sertifaicate"
@@ -89,7 +89,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     </a>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                         <button class="btn-fill doctor-info__btn" data-options='{"touch" : false}'
                             data-fancybox data-src="#feedback">
                             Записаться на прием онлайн

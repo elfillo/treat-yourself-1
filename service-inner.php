@@ -226,7 +226,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     Первичная косультация врача Лимфолога
                                 </h3>
                                 <div class="price__value">
-                                    1300 ₽
+                                    1300 &#8381;
                                 </div>
                                 <button class="price__btn">
                                     Запись онлайн
@@ -237,7 +237,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     Первичная косультация врача Лимфолога
                                 </h3>
                                 <div class="price__value">
-                                    1300 ₽
+                                    1300 &#8381;
                                 </div>
                                 <button class="price__btn">
                                     Запись онлайн
@@ -248,7 +248,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     Первичная косультация врача Лимфолога
                                 </h3>
                                 <div class="price__value">
-                                    1300 ₽
+                                    1300 &#8381;
                                 </div>
                                 <button class="price__btn">
                                     Запись онлайн
@@ -259,7 +259,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     Первичная косультация врача Лимфолога
                                 </h3>
                                 <div class="price__value">
-                                    1300 ₽
+                                    1300 &#8381;
                                 </div>
                                 <button class="price__btn">
                                     Запись онлайн
@@ -270,7 +270,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                                     Первичная косультация врача Лимфолога
                                 </h3>
                                 <div class="price__value">
-                                    1300 ₽
+                                    1300 &#8381;
                                 </div>
                                 <button class="price__btn">
                                     Запись онлайн

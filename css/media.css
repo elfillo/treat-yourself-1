@@ -292,6 +292,12 @@
         display: none;
 
     }
+
+    .sertifaicates__list {
+        width: 100%;
+        max-width: 435px;
+        margin-left: auto;
+    }
 }
 
 @media screen and (max-width: 860px) {
@@ -408,19 +414,19 @@
     }
 
     .contacts-section__row {
-        -webkit-box-pack: start;
-        -ms-flex-pack: start;
         justify-content: flex-start;
     }
 
     .contacts-section__map {
         width: 100%;
         max-width: 100%;
+        order: 2;
     }
 
     .contacts-section__text {
         width: 100%;
-        padding: 30px 0 0 0;
+        padding: 0 0 30px 0;
+        order: 1;
     }
 
     .contacts-section__contact-phone {
@@ -470,6 +476,8 @@
     .doctors__text {
         width: 100%;
         padding-left: 0;
+        order: 1;
+        margin-bottom: 30px;
     }
 
     .doctors__text br {
@@ -478,7 +486,7 @@
 
     .doctors__slider-wrapper {
         width: 275px;
-        margin-bottom: 30px;
+        order: 2;
     }
 
     .foot-page__logo {
@@ -574,8 +582,21 @@
         margin-right: -20px;
     }
 
+    .team-section__item {
+        width: 100%;
+    }
+
     .doctor-card {
         min-width: 100%;
+    }
+
+    .doctor-card__thumb {
+        height: auto;
+        padding-bottom: 100%;
+    }
+
+    .doctor-card__thumb img {
+        height: 90%;
     }
 
     .doctor-info {
@@ -590,15 +611,7 @@
         border-radius: 0;
     }
 
-    .doctor-info__sertifaicate-list {
-        overflow: hidden;
-    }
-
-    .doctor-info__sertifaicate {
-        width: 250px;
-        margin: 0 auto;
-    }
-
+    
     .team-inner__doctor-avatar {
         padding: 0 20px;
     }
@@ -708,13 +721,21 @@
         padding-bottom: 100%;
     }
 
-    .sertificates__item:not(:last-child) {
-        margin: 0 0 20px 0;
+    .sertificates__item {
+        width: 175px;
+        height: 230px;
     }
 
-    .sertificates__list {
-        -ms-flex-pack: distribute;
-        justify-content: space-around;
+    .doctors-slider {
+        width: 100%;
+    }
+
+    .doctor-info__sertifaicate-list .swiper-slide {
+        width: 175px;
+    }
+
+    .doctor-info__sertifaicate {
+        width: 100%;
     }
 
     .fancybox-slide {

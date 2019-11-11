@@ -58,7 +58,7 @@
                         data-required></textarea>
                 </div>
                 <div class="row row_align-center review-pop-up__action">
-                    <input type="submit" class="btn-fill review-pop-up__btn-fill js-submit" disabled
+                    <input type="submit" class="btn-fill review-pop-up__btn-fill js-submit"
                         value="Оставить отзыв" data-submit>
                     <p class="form__policy">
                         Нажимая "Оформить заказ", Вы даёте Согласие <br>на обработку Ваших персональных данных

@@ -98,23 +98,25 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                         опытом. Наши врачи не только лечат. Они помогают сохранить здоровье и находят подход и ко всем
                         пациентам.
                     </p>
-                    <ul class="row sertificates__list">
-                        <li class="sertificates__item">
-                            <a href="img/static/lic1.png" data-fancybox="lic">
-                                <img src="img/static/lic1.png" alt="Скан лицензии">
-                            </a>
-                        </li>
-                        <li class="sertificates__item">
-                            <a href="img/static/lic2.png" data-fancybox="lic">
-                                <img src="img/static/lic2.png" alt="Скан лицензии">
-                            </a>
-                        </li>
-                        <li class="sertificates__item">
-                            <a href="img/static/lic3.png" data-fancybox="lic">
-                                <img src="img/static/lic3.png" alt="Скан лицензии">
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="swiper-container sertifaicates__list">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide sertificates__item">
+                                <a href="img/static/lic1.png" data-fancybox="lic">
+                                    <img src="img/static/lic1.png" alt="Скан лицензии">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sertificates__item">
+                                <a href="img/static/lic2.png" data-fancybox="lic">
+                                    <img src="img/static/lic2.png" alt="Скан лицензии">
+                                </a>
+                            </div>
+                            <div class="swiper-slide sertificates__item">
+                                <a href="img/static/lic3.png" data-fancybox="lic">
+                                    <img src="img/static/lic3.png" alt="Скан лицензии">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="sertificates__thumb"></div>
             </div>
