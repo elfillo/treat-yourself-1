@@ -255,6 +255,10 @@
         align-items: flex-start;
     }
 
+    .review-pop-up_feedback .review-pop-up__right {
+        display: none;
+    }
+
     .review-pop-up__half {
         width: 100%;
         max-width: 100%;

@@ -1,4 +1,4 @@
-<div class="review-pop-up" id="feedback">
+<div class="review-pop-up review-pop-up_feedback" id="feedback">
     <!-- <div class="overlay show"></div> -->
     <div class="review-pop-up__inner">
         <div class="review-pop-up__left">
