@@ -239,13 +239,20 @@
         height: auto;
     }
 
+    .review-pop-up__inner {
+        flex-wrap: wrap;
+    }
+
     .review-pop-up__left {
         width: 100%;
         padding: 30px;
     }
 
     .review-pop-up__right {
-        display: none;
+        width: 100%;
+        height: 100vh;
+        background-position-y: bottom;
+        align-items: flex-start;
     }
 
     .review-pop-up__half {
@@ -358,6 +365,14 @@
         width: 100%;
         max-width: 435px;
         margin-left: auto;
+    }
+
+    .files-upload {
+        justify-content: flex-start;
+    }
+
+    .files-upload__label {
+        margin-right: 1.875rem;
     }
 }
 

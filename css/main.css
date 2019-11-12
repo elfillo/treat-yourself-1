@@ -3429,14 +3429,17 @@ li {
 .files-upload {
   display: flex;
   justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .files-upload__label {
   width: 4rem;
   height: 2.5rem;
-  margin-right: 1.875rem;
 
-  background: #F6F6F6;
+  background-image: url(../img/svg/upload.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #F6F6F6;
   border: 1px solid #EFF0F6;
   -webkit-box-shadow: inset 0px 0.1875rem 0.3125rem rgba(242, 241, 241, 0.5);
   box-shadow: inset 0px 0.1875rem 0.3125rem rgba(242, 241, 241, 0.5);
@@ -3447,8 +3450,6 @@ li {
 
 .files-upload__label.has-file {
   background-image: url(../img/svg/check-file.svg);
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .badge {
