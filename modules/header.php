@@ -88,14 +88,16 @@
                 <div class="container">
                     <div class="row row_align-center head-page__row head-page__row_pl">
 
-                        <!-- Begin burger-menu -->
-                        <button class="burger-menu head-page__burger-menu">
-                            <span class="burger-menu__item"></span>
-                        </button>
-                        <!-- Begin burger-menu -->
-
                         <a href="/" class="logo-hor logo-hor_l logo-hor_hidden">
                             <img src="img/logo.svg" alt="Л" class="logo__img">
+                            <span class="logo-hor__text">
+                                <strong>
+                                    Лечись
+                                </strong>
+                                <span>
+                                    медицинский центр
+                                </span>
+                            </span>
                         </a>
 
                         <!-- Begin services-menu-->
@@ -133,24 +135,19 @@
                             <svg class="icon" width="14" height="14" viewBox="0 0 16 16">
                                 <use xlink:href="img/symbol_sprite.svg#icon-time"></use>
                             </svg>
-                            Записаться на прием
                         </button>
 
-                        <!-- Begin mobile-services-menu-->
-                        <div class="mobile-services-menu" style="display: none;">
-                            <nav class="mobile-services-menu__nav">
-                                <ul>
-                                    <li><a href="/service-inner.html">Лимфедема</a></li>
-                                    <li><a href="/service-inner.html">Терапия</a></li>
-                                    <li><a href="/service-inner.html">Ортопедия</a></li>
-                                    <li><a href="/service-inner.html">Мануальная терапия</a></li>
-                                    <li><a href="/service-inner.html">Массаж</a></li>
-                                    <li><a href="/service-inner.html">Онкология</a></li>
-                                    <li><a href="/service-inner.html">Кинезиотейпирование</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- End mobile-services-menu-->
+                        <a href="tel:84912300317" class="call-us head-page__call-us">
+                            <svg class="icon" width="14" height="14" viewBox="0 0 16 16">
+                                <use xlink:href="img/symbol_sprite.svg#icon-phone"></use>
+                            </svg>
+                        </a>
+
+                        <!-- Begin burger-menu -->
+                        <button class="burger-menu head-page__burger-menu">
+                            <span class="burger-menu__item"></span>
+                        </button>
+                        <!-- Begin burger-menu -->
                     </div>
                 </div>
             </div>
@@ -160,10 +157,62 @@
         <!-- Begin mobile-menu -->
         <div class="mobile-menu">
             <nav class="mobile-menu__nav">
+                <h3 class="mobile-menu__title">
+                    Основные <br>направления центра
+                </h3>
                 <ul>
                     <li>
                         <a href="#">
-                            
+                            Лимфедема
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="service-inner.php">
+                                    Категория 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="service-inner.php">
+                                    Категория 2
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="service-inner.php">
+                            Мануальная терапия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="service-inner.php">
+                            Мануальная терапия
+                        </a>
+                    </li>
+                    <li>
+                        <a href="service-inner.php">
+                            Мануальная терапия
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="mobile-menu__nav">
+                <h3 class="mobile-menu__title">
+                    О центре
+                </h3>
+                <ul>
+                    <li>
+                        <a href="team.php">
+                            Врачи
+                        </a>
+                    </li>
+                    <li>
+                        <a href="reviewes.php">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contacts.php">
+                            Контакты
                         </a>
                     </li>
                 </ul>

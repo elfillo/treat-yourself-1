@@ -55,12 +55,7 @@ $(function () {
     navHeight = $('.head-page_fixed').outerHeight(true);
   }
 
-  refreshVar();
-  $(window).resize(refreshVar);
-
-  $('<div class="clone-nav"></div>').insertBefore('.head-page_fixed').css('height', navHeight).hide();
-
-  $(window).scroll(function () {
+  function fixedMenu() {
     winPos = $(window).scrollTop();
 
     if (winPos >= navPos) {
@@ -87,7 +82,15 @@ $(function () {
       }
 
     }
-  });
+  }
+
+  refreshVar();
+  $(window).resize(refreshVar);
+
+  $('<div class="clone-nav"></div>').insertBefore('.head-page_fixed').css('height', navHeight).hide();
+
+  fixedMenu();
+  $(window).scroll(fixedMenu);
 });
 
 // Sliders
@@ -235,9 +238,20 @@ $(function () {
 
 });
 
-// Accardeon
+
 $(function () {
 
+  function autoHeightAnimate(element, time) {
+    var curHeight = element.height();
+    var autoHeight = element.css('height', 'auto').height();
+
+    element.height(curHeight);
+    element.stop().animate({
+      height: autoHeight
+    }, parseInt(time));
+  }
+
+  // Accardeon
   $(".accardeon__head").on("click", function () {
 
     $(this).toggleClass('is-active');
@@ -255,15 +269,39 @@ $(function () {
 
   });
 
-  function autoHeightAnimate(element, time) {
-    var curHeight = element.height();
-    var autoHeight = element.css('height', 'auto').height();
+  $('.mobile-menu__nav > ul > li > a').on('click', function(e) {
+    var that = $(this);
+    var parent = that.parent();
+    var innerList = parent.find('ul');
+      
+    if (innerList.length) {
+      e.preventDefault();
+    }
+  });
 
-    element.height(curHeight);
-    element.stop().animate({
-      height: autoHeight
-    }, parseInt(time));
-  }
+
+  $('.mobile-menu__nav > ul > li').on('click', function() {
+    var that = $(this);
+    var innerList = that.find('ul');
+
+    var animateTime = 300;
+
+    if (innerList.length) {
+      that.toggleClass('is-active');
+    }
+    
+
+    if (that.hasClass('is-active')) {
+
+      autoHeightAnimate($(innerList), animateTime)
+
+    } else {
+      $(innerList).stop().animate({
+        height: '0'
+      }, animateTime);
+    }
+
+  });
 
 });
 

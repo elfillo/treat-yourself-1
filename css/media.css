@@ -70,8 +70,9 @@
     }
 
     .logo-hor_hidden {
-        display: block;
+        display: flex;
     }
+    
 
     .logo-hor_l {
         position: static;
@@ -81,11 +82,14 @@
     }
 
     .burger-menu {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid #E4E4E4;
     }
 
     .head-page__burger-menu {
-        margin-right: 20px;
+        margin-right: -16px;
     }
 
     .head-page__services-menu {
@@ -97,9 +101,62 @@
     }
 
     .head-page__bottom {
-        padding: 10px 0;
+        padding: 0;
     }
 
+    .head-page__bottom .logo-hor__text {
+        display: block;
+        padding-left: 8px;
+        padding-right: 0;
+    }
+
+    .logo-hor__text strong {
+        font-size: 18px;
+    }
+
+    .logo-hor__text span {
+        font-size: 8px;
+    }
+
+    .logo-hor__text::after {
+        display: none;
+    }
+
+    .logo-hor img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .make-an-appointment {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-left: 1px solid #E4E4E4;
+    }
+
+    .make-an-appointment svg {
+        width: 19px;
+        height: 19px;
+        margin-right: 0;
+        stroke: #999999;
+    }
+
+    .call-us {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid #E4E4E4;
+    }
+
+    .call-us svg {
+        width: 22px;
+        height: 21px;
+        stroke: #999999;
+    }
 
     .services-menu_column {
         -webkit-column-gap: 30px;
