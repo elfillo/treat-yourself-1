@@ -135,6 +135,7 @@
                             <svg class="icon" width="14" height="14" viewBox="0 0 16 16">
                                 <use xlink:href="img/symbol_sprite.svg#icon-time"></use>
                             </svg>
+                            <span>Записаться на прием</span>
                         </button>
 
                         <a href="tel:84912300317" class="call-us head-page__call-us">

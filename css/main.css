@@ -1896,6 +1896,10 @@ li {
   border-bottom: 1px solid #E4E4E4;
 }
 
+.head-page__bottom .logo-hor__text {
+  display: none;
+}
+
 .head-page_fixed.fixed {
   position: fixed;
   top: 0;

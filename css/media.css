@@ -143,6 +143,10 @@
         stroke: #999999;
     }
 
+    .make-an-appointment span {
+        display: none;
+    }
+
     .call-us {
         width: 60px;
         height: 60px;
