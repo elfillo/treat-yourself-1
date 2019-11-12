@@ -1649,7 +1649,7 @@ li {
 .input::-webkit-input-placeholder {
   font-family: 'ProximaNova', sans-serif;
   font-size: 1rem;
-  color: #A69895;
+  color: #C3C5D0;
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -1658,7 +1658,7 @@ li {
 .input:-ms-input-placeholder {
   font-family: 'ProximaNova', sans-serif;
   font-size: 1rem;
-  color: #A69895;
+  color: #C3C5D0;
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -1667,7 +1667,7 @@ li {
 .input::-ms-input-placeholder {
   font-family: 'ProximaNova', sans-serif;
   font-size: 1rem;
-  color: #A69895;
+  color: #C3C5D0;
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -1676,7 +1676,7 @@ li {
 .input::placeholder {
   font-family: 'ProximaNova', sans-serif;
   font-size: 1rem;
-  color: #A69895;
+  color: #C3C5D0;
   -webkit-transition: opacity 0.3s ease;
   -o-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
@@ -3070,6 +3070,7 @@ li {
 }
 
 .reviews_page {
+  background-color: #F4F5F9;
   padding: 2.5rem 0 6.25rem 0;
 }
 
