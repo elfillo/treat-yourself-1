@@ -2554,7 +2554,8 @@ li {
   background-position: center;
   background-repeat: no-repeat;
   width: 35.625rem;
-  height: 36.875rem;
+  max-height: 36.875rem;
+  height: calc(100vh - 8.125rem);
   /* height: 73vh; */
   /* position: sticky; */
   position: fixed;
@@ -2567,9 +2568,10 @@ li {
 }
 
 .doctor-avatar img {
-  width: 100%;
-  max-width: 28.125rem;
-  height: auto;
+  /* width: 100%; */
+  /* max-width: 28.125rem; */
+  height: 95%;
+  width: auto;
   position: absolute;
   bottom: 0;
   left: 50%;
