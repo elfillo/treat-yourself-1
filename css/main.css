@@ -2460,6 +2460,7 @@ li {
 
 /*---Begin team-inner---*/
 .team-inner {
+  min-height: 43.75rem;
   background: #9FE86B;
   padding: 2.5rem 0 0 0;
   position: relative;
