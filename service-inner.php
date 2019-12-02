@@ -451,6 +451,10 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                         </ul>
                     </div>
 
+                    <div class="wp-block-image">
+                        <img src="img/admin/service.jpg" alt="">
+                    </div>
+
                     <div class="faq">
                         <h2 class="service-inner__title">
                             Частые вопросы наших пациентов
@@ -518,7 +522,7 @@ define ('SITE_PATH', $sitePath); // путь к корневой папке са
                 </div>
 
                 <!-- Begin float-block -->
-                <div class="float-block float-block_sticky js-sticky-block">
+                <div class="float-block float-block_sticky">
                     <div class="service-feedback">
                         <svg class="icon service-feedback__icon" width="70" height="70" viewBox="0 0 70 70">
                             <use xlink:href="img/symbol_sprite.svg#icon-stethoscope"></use>
