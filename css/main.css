@@ -1292,12 +1292,21 @@ li {
   cursor: pointer;
   text-align: center;
   padding: 0 3.4375rem;
+  position: relative;
+  -webkit-transition: 0.3s ease;
+
+  -o-transition: 0.3s ease;
+
+  transition: 0.3s ease;
 }
 
-.btn-fill:hover {}
+.btn-fill:hover {
+  background-position-y: 3.93rem;
+}
 
 .btn-fill:active {
   border-bottom-width: 0;
+  top: 0.1875rem;
 }
 
 /*---Begin burger-menu---*/
