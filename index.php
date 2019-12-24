@@ -127,7 +127,9 @@ define('SITE_PATH', $sitePath); // путь к корневой папке са�
                             </div>
                         </div>
                     </div>
-                    <div class="sertificates__thumb"></div>
+                    <div class="sertificates__thumb">
+                        <img src="" alt="">
+                    </div>
                 </div>
             </div>
         </section>
